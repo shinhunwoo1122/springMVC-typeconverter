@@ -12,4 +12,9 @@ public class TestController {
         return "OK";
     }
 
+    @GetMapping("/converter-test1")
+    public String converterTest2(){
+        return "OK";
+    }
+
 }
