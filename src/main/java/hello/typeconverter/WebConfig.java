@@ -12,6 +12,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
+
+
     @Override
     public void addFormatters(FormatterRegistry registry) {
         //주석처리 우선순위
